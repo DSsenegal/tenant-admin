@@ -1,0 +1,12 @@
+query TenantList {
+  tenants {
+    id
+    domain
+    createdAt
+    shopName
+    shopDescription
+    adminEmail
+    adminPhone
+    isApproved
+  }
+}
